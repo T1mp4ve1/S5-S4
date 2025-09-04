@@ -1,6 +1,6 @@
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Libertinus+Keyboard&family=Ms+Madi&family=Outfit:wght@100..900&family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Lavishly+Yours&family=Libertinus+Keyboard&family=Ms+Madi&family=Outfit:wght@100..900&family=Story+Script&display=swap');
 
 html {
     height: 100%;
@@ -24,7 +24,7 @@ body h2 {
 }
 
 body p {
-    font-family: "Ms Madi", cursive;
+    font-family: "Lavishly Yours", cursive;
 }
 
 
@@ -58,81 +58,81 @@ body p {
 
 .one {
     background: linear-gradient(175deg,
-            rgb(176, 221, 206) 0%,
-            rgb(178, 228, 212) 40%,
-            rgb(135, 188, 170) 70%,
-            rgb(74, 99, 90) 98%,
-            rgb(96, 121, 111) 100%);
+            rgb(111, 172, 247) 0%,
+            rgb(122, 179, 249) 40%,
+            rgb(97, 141, 196) 70%,
+            rgb(88, 135, 193) 98%,
+            rgb(97, 139, 191) 100%);
     transform: rotate(10deg);
 }
 
 .two {
     background: linear-gradient(175deg,
-            rgb(216, 209, 209) 0%,
-            rgb(219, 209, 209) 40%,
-            rgb(170, 149, 149) 70%,
-            rgb(95, 74, 74) 98%,
-            rgb(87, 65, 65) 100%);
+            #96f78b 0%,
+            #acf8a4 40%,
+            #93d88c 70%,
+            #639a5e 98%,
+            #3e623b 100%);
     margin: 2rem;
     transform: rotate(4deg);
 }
 
 .three {
     background: linear-gradient(175deg,
-            rgb(194, 186, 178) 0%,
-            rgb(207, 201, 194) 40%,
-            rgb(137, 126, 114) 70%,
-            rgb(81, 70, 60) 98%,
-            rgb(40, 36, 33) 100%);
+            rgb(246, 240, 133) 0%,
+            rgb(247, 242, 159) 40%,
+            rgb(224, 219, 118) 70%,
+            rgb(181, 176, 96) 98%,
+            rgb(150, 147, 80) 100%);
             transform: rotate(-4deg);
 }
 
 .four {
     background: linear-gradient(175deg,
-            rgb(227, 206, 230) 0%,
-            rgb(231, 214, 233) 40%,
-            rgb(158, 132, 161) 70%,
-            rgb(77, 60, 80) 98%,
-            rgb(95, 80, 97) 100%);
+            rgb(241, 158, 254) 0%,
+            rgb(238, 173, 249) 40%,
+            rgb(219, 143, 231) 70%,
+            rgb(190, 121, 200) 98%,
+            rgb(206, 135, 218) 100%);
     transform: rotate(6deg);
 }
 
 .five {
     background: linear-gradient(175deg,
-            rgb(204, 216, 230) 0%,
-            rgb(205, 213, 221) 40%,
-            rgb(146, 156, 168) 70%,
-            rgb(94, 97, 101) 98%,
-            rgb(83, 92, 101) 100%);
+            rgb(248, 146, 137) 0%,
+            rgb(247, 160, 152) 40%,
+            rgb(218, 127, 119) 70%,
+            rgb(198, 115, 108) 98%,
+            rgb(248, 146, 137) 100%);
     transform: rotate(-3deg);
 }
 
 .six {
     background: linear-gradient(175deg,
-            rgb(214, 229, 211) 0%,
-            rgb(194, 208, 191) 40%,
-            rgb(142, 156, 140) 70%,
-            rgb(57, 66, 55) 98%,
-            rgb(41, 50, 39) 100%);
+            rgb(134, 150, 251) 0%,
+            rgb(158, 169, 244) 40%,
+            rgb(131, 141, 209) 70%,
+            rgb(102, 114, 196) 98%,
+            rgb(74, 78, 105) 100%);
     transform: rotate(-7deg);
 }
 
 .seven {
     background: linear-gradient(175deg,
-            rgb(209, 195, 199) 0%,
-            rgb(206, 196, 199) 40%,
-            rgb(165, 140, 148) 70%,
-            rgb(83, 60, 67) 98%,
-            rgb(49, 43, 45) 100%);
+            rgb(159, 247, 223) 0%,
+            rgb(165, 246, 224) 40%,
+            rgb(138, 211, 191) 70%,
+            rgb(78, 138, 122) 98%,
+            rgb(80, 131, 118) 100%);
     transform: rotate(-2deg);
 }
 
 .eight {
     background: linear-gradient(175deg,
-            rgb(199, 199, 221) 0%,
-            rgb(212, 212, 227) 40%,
-            rgb(133, 133, 151) 70%,
-            rgb(64, 64, 77) 98%,
-            rgb(51, 51, 84) 100%);
+            rgb(249, 165, 123) 0%,
+            rgb(236, 165, 129) 40%,
+            rgb(218, 145, 108) 70%,
+            rgb(149, 98, 72) 98%,
+            rgb(177, 115, 83) 100%);
     margin: 2rem;
 }

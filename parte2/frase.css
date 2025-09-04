@@ -67,21 +67,18 @@ body {
 
 
 @keyframes fadeCycle {
-    0% {
-        opacity: 0;
-    }
 
     10% {
         opacity: 1;
         transform: translateY(40px);
     }
 
-    30% {
+    35% {
         opacity: 1;
         transform: translateY(40px);
     }
 
-    40% {
+    45% {
         opacity: 0;
         transform: translateY(100px);
     }
