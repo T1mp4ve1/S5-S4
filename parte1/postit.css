@@ -1,0 +1,138 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Libertinus+Keyboard&family=Ms+Madi&family=Outfit:wght@100..900&family=Story+Script&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 57, 57);
+    font-size: 3rem;
+}
+
+body h2 {
+    font-family: "Delicious Handrawn", cursive;
+    margin-bottom: 10px;
+}
+
+body p {
+    font-family: "Ms Madi", cursive;
+}
+
+
+/* TASKS */
+
+.group {
+    position: relative;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+    box-shadow: 4px 3px 10px;
+    /* position: absolute; */
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: rotate(10deg) translate(30px) scale(1.5);
+    z-index: 1;
+}
+
+.one {
+    background: linear-gradient(175deg,
+            rgb(176, 221, 206) 0%,
+            rgb(178, 228, 212) 40%,
+            rgb(135, 188, 170) 70%,
+            rgb(74, 99, 90) 98%,
+            rgb(96, 121, 111) 100%);
+    transform: rotate(10deg);
+}
+
+.two {
+    background: linear-gradient(175deg,
+            rgb(216, 209, 209) 0%,
+            rgb(219, 209, 209) 40%,
+            rgb(170, 149, 149) 70%,
+            rgb(95, 74, 74) 98%,
+            rgb(87, 65, 65) 100%);
+    margin: 2rem;
+    transform: rotate(4deg);
+}
+
+.three {
+    background: linear-gradient(175deg,
+            rgb(194, 186, 178) 0%,
+            rgb(207, 201, 194) 40%,
+            rgb(137, 126, 114) 70%,
+            rgb(81, 70, 60) 98%,
+            rgb(40, 36, 33) 100%);
+            transform: rotate(-4deg);
+}
+
+.four {
+    background: linear-gradient(175deg,
+            rgb(227, 206, 230) 0%,
+            rgb(231, 214, 233) 40%,
+            rgb(158, 132, 161) 70%,
+            rgb(77, 60, 80) 98%,
+            rgb(95, 80, 97) 100%);
+    transform: rotate(6deg);
+}
+
+.five {
+    background: linear-gradient(175deg,
+            rgb(204, 216, 230) 0%,
+            rgb(205, 213, 221) 40%,
+            rgb(146, 156, 168) 70%,
+            rgb(94, 97, 101) 98%,
+            rgb(83, 92, 101) 100%);
+    transform: rotate(-3deg);
+}
+
+.six {
+    background: linear-gradient(175deg,
+            rgb(214, 229, 211) 0%,
+            rgb(194, 208, 191) 40%,
+            rgb(142, 156, 140) 70%,
+            rgb(57, 66, 55) 98%,
+            rgb(41, 50, 39) 100%);
+    transform: rotate(-7deg);
+}
+
+.seven {
+    background: linear-gradient(175deg,
+            rgb(209, 195, 199) 0%,
+            rgb(206, 196, 199) 40%,
+            rgb(165, 140, 148) 70%,
+            rgb(83, 60, 67) 98%,
+            rgb(49, 43, 45) 100%);
+    transform: rotate(-2deg);
+}
+
+.eight {
+    background: linear-gradient(175deg,
+            rgb(199, 199, 221) 0%,
+            rgb(212, 212, 227) 40%,
+            rgb(133, 133, 151) 70%,
+            rgb(64, 64, 77) 98%,
+            rgb(51, 51, 84) 100%);
+    margin: 2rem;
+}
